@@ -26,7 +26,7 @@ namespace ARKitXamarinDemo
 			rootElement.Add(section);
 			section.Add(new StringElement("Mutant demo", () => Run<MutantDemo>()));
 			section.Add(new StringElement("Crowd demo", () => Run<CrowdDemo>()));
-			//section.Add(new StringElement("Ruler demo", () => Run<RulerDemo>()));
+			section.Add(new StringElement("Ruler demo", () => Run<RulerDemo>()));
 
 			Window.MakeKeyAndVisible();
 			return true;
