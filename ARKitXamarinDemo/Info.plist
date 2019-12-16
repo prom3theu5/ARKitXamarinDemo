@@ -34,7 +34,7 @@
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>CFBundleIdentifier</key>
-	<string>urho.demo</string>
+	<string>com.systemio.ardemo</string>
 	<key>CFBundleName</key>
 	<string>UrhoSharp ARKit</string>
 </dict>
